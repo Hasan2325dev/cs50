@@ -1,0 +1,112 @@
+<DOCTYPE html>
+<html lang=en>
+<head>
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Exo+2:600&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+	<style>
+		.headbody{
+			text-align: center;
+			padding-top: 20px;
+			font-family: 'Exo 2', sans-serif;
+		}
+		hr{
+			width: 85%;
+			border-style: solid;
+			border-color: grey;
+		}
+		footer{
+			height: 67px;
+			width: 100%;
+			background-color:black;
+			position: fixed;
+			bottom: 0;
+			padding: 20px;
+			text-align: center;
+			font-family: 'Exo 2', sans-serif;
+			color: white;
+		}
+		.col-lg-4,.col-sm-8{
+			margin: 20px;
+			padding: 20px;
+			font-family: 'Josefin Sans', sans-serif;
+			font-size: 17px;
+			font-weight: bold;
+
+
+		}
+		html{
+			display: flex;
+			flex-wrap: wrap;
+		}
+		.row{
+			grid-template-columns: auto auto;
+		}
+		
+	</style>
+</head>
+<header>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="navbar-brand">
+  	<img src="icons/code-slash.svg" alt="" width="32" height="32" title="code-slash">
+  		<storng>HASAN STUDIOS</storng>
+  	</div>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="forms.html">Forms</a>
+      </li>
+      <li class="nav-item">
+      	<a class="nav-link" href="lists.html">Lists</a>
+      </li>
+      <li class="nav-item">
+      	<a class="nav-link" href="tables.html">Tables</a>
+      </li>
+      
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+</header>
+<body>
+	<h2 class="headbody">PROJECT CS50<sup>#</sup></h2>
+	<hr>
+	<h5 class="headbody">design'in future on Python and javaScript</h5>
+	<br>
+	<div class="row">
+<div class="col-lg-4 col-sm-8">
+	<h3>
+		"column 1"
+	</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	</div>
+	<div class="col-lg-4 col-sm-8">
+		<h3>
+			"column 2"
+		</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	</div>
+</div>
+	<!-- footer-->
+	<footer>
+	<p>
+		HASAN STUDIOS
+	</p>
+	
+</footer>
+
+</body>
+</html>
